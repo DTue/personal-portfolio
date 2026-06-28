@@ -9,8 +9,8 @@ import Presentations from './components/Presentations'
 import ProfessionalExperience from './components/ProfessionalExperience'
 import Projects from './components/Projects';
 import Honors from './components/Honors'; 
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+//import Contact from './components/Contact';
+//import Footer from './components/Footer';
 
 
 

@@ -1,18 +1,14 @@
 function Presentations(){
     return(
         <section className="presentation-section">
-            <h2>Presentations</h2>
-            <h3>Presentation 1</h3>
+            <h2>Research and Presentations</h2>
              <p>
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Henzel, M., & Tran, T. (2026, February). Impactful instructional design: Student voice motivates online classroom success
+                [Poster session]. S3 Research Symposium, San Diego, CA
              </p>
-            <h3>Presentation 2</h3>
              <p>
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Martinez, A., & Tran, T. (2026, February). Intentional instructional design: How UX/UI principles and design shape online
+                learning environments [Poster session]. S3 Research Symposium, San Diego, CA
              </p>
             
         </section>
