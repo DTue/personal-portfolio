@@ -29,7 +29,6 @@
   justify-content: center; 
 }
 
-
 .hero-section{
   display: flex; 
   min-height: 400px; 
@@ -42,6 +41,7 @@
   border: 2px, solid gray; 
 
 }
+
 .hero-left{
   background-color: black; 
   color: #f5f0ea; 
@@ -54,5 +54,54 @@
 .hero-right img{
   max-width: 80%;
   height: auto; 
+}
 
+.biography-section{
+  color: #f5f0ea; 
+  text-align: center;
+}
+
+.menu-section{
+  overflow: hidden; 
+  background-color: #f5f0ea;
+}
+
+.menu-section a{
+  color: #2D2828;
+  text-decoration: none; 
+}
+
+.menu-sectiont a:hover{
+  color: gray;
+}
+
+.menu-list{
+  margin: 5px;
+  padding: 10px; 
+  border: 20px; 
+  display: flex; 
+  flex-basis: auto;
+  gap: 40px; 
+  list-style-type: none;
+  justify-content: center; 
+}
+
+.research-experience-section {
+  color: #f5f0ea;
+}
+
+.presentation-section{
+  background-color: #f5f0ea; 
+}
+
+.professional-experience-section{
+  color: #f5f0ea; 
+}
+
+.project-section{
+    background-color: #f5f0ea; 
+}
+
+.honors-section{
+  color: #f5f0ea; 
 }
