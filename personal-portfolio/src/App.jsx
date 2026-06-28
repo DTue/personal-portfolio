@@ -1,41 +1,23 @@
-import './App.css'
+//This is the main file for compiling all components
+import './App.css';
+import Header from './components/Header';
+import Hero from './components/Hero';
+//import About from './components/About';
+//import Project from './components/Project';
+//import Contact from './components/Contact';
+//import Footer from './components/Footer';
 
-const projects = [
-  "Hackathons",
-  "Academic Projects",
-  "Media Projects"
-]; 
+
 
 
 function App() {
   return (
+    <> 
+      <Header/>
+      <Hero/>
 
+    </>
   
-    <section> 
-      {/* Navigation Bar */}
-     <nav class = "navigation">
-      <ul>
-        <li><a href = "#">Home</a></li>
-        <li><a href = "#" >About Me</a></li>
-        <li><a href = "#">Projects</a></li>
-        <li><a href = "#">Contact</a></li>
-      </ul>
-     </nav>
-
-     
-    <h1>Dolphin's Digital Portfolio</h1>
-    <h2>About Me</h2>
-
-    <h2>My Projects</h2>
-
-    { 
-    projects.map(project => (
-      <p>{project}</p>
-    ))
-    }
-
-    <h2>Let's Connect</h2>
-   </section> 
    
   ); 
 }
