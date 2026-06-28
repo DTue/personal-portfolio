@@ -1,16 +1,23 @@
-import './App.css'
+//This is the main file for compiling all components
+import './App.css';
+import Header from './components/Header';
+import Hero from './components/Hero';
+//import About from './components/About';
+//import Project from './components/Project';
+//import Contact from './components/Contact';
+//import Footer from './components/Footer';
 
 
 
 
 function App() {
   return (
-    <div> 
-    <h1>Dolphin's Digital Portfolio</h1>
-    <h2>About Me</h2>
-    <h2>My Projects</h2>
-    <h2>Let's Connect</h2>
-   </div> 
+    <> 
+      <Header/>
+      <Hero/>
+
+    </>
+  
    
   ); 
 }
