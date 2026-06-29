@@ -6,7 +6,7 @@ function Hero() {
 
 
         <div className = "hero-left"> 
-            <h1>Hello, my name is Tue Tran</h1>
+            <h1>Tue "Dolphin" Tran</h1>
         </div>
 
           <div className = "hero-right">

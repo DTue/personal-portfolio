@@ -1,5 +1,30 @@
-body{
-    background-color: #2D2828; 
-    font-family: san, monospace; 
+:root{
+    /*Color Pallete*/
+    --color-background: #2D2828;
+    --color-primary: #f5f0ea;
+    --color-hover: gray; 
+
+    /*Typography*/
+    --fs-button: 1.1rem;
+    --fs-body-text: 1.0rem;
+
+    /*Section Design*/
+    --section-padding-y: 20px;
+    --section-padding-x: 8%;
+
+    /*Card Design*/
+    --card-radius: 20px; 
+
 
 }
+
+
+h2{
+    font-size: 2rem; 
+}
+
+body{
+    background-color: #2D2828; 
+    font-family: sans-serif, monospace; 
+}
+

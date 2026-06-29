@@ -1,19 +1,72 @@
+import image_placeholder from "../assets/image_placeholder.jpg"; 
+import {useState} from 'react'; 
+
+
+const projectCategory = ["All", "Software", "Academic", "Media"];
+const projects = [
+  {
+  id: 1,
+  category: "Software",
+  title: "DARK",
+  role: "Lead Developer",
+  description: "Privacy-first AI SMS system connecting unhoused individuals with community resources.",
+  image: image_placeholder,
+  project_link: "#",
+  },
+  {
+    id: 2,
+    category: "Academic",
+    title: "MP3ME",
+    role: "Full-Stack Developer",
+    description: "Local music service application built with C++ data structures.",
+    image: image_placeholder,
+    project_link: "#",
+  },
+  {
+    id: 3,
+    category: "Media",
+    title: "Jumbotron Media Showcase",
+    role: "Digital Communication Specialist",
+    description: "Large-scale athletic media production for SDSU Women’s Basketball.",
+    image: image_placeholder,
+    project_link: "#",
+  }
+];
+
+
+
 function Projects(){
+
+    const [selectedCategory, setSelectedCategory] = useState("All"); 
+    const filteredProjects = selectedCategory === "All" 
+                        ? projects
+                        : projects.filter((project) =>  project.category === selectedCategory);  
+
     return(
-        <section className="project-section">
+        <section className="projects-section">
             <h2>Project Section</h2>
-             <h3>Project 1</h3>
-             <p>
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-             </p>
-            <h3>Project 2</h3>
-             <p>
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-             </p>
+            <ul className="project-category-navigation">
+                {projectCategory.map((category) => (
+                  <button type="button" 
+                        className=
+                        {selectedCategory === projectCategory ? "category-button-active": "category-button-inactive"}
+                        onClick={() => setSelectedCategory(category)}>
+                        {category} 
+                        </button> 
+                  ))}
+            </ul>
+ 
+            <div className="project-slideshow-section">
+                {filteredProjects.map((project) => (
+                    <div className="project-card" key={project.id}>
+                        <img src={project.image} alt={`\${project.title} preview`}/>
+                        <p className="project-category">{project.category}</p>
+                        <h3>{project.title}</h3>
+                        <p className="project-role">{project.role}</p>
+                        <p className="project-description">{project.description}</p>
+                    </div>
+                ))}
+             </div> 
 
         </section>
 

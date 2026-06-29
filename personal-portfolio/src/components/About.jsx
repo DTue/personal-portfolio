@@ -1,13 +1,11 @@
 function About(){
     return(
-
         <section className="biography-section">
             <p>
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Tue “Dolphin” Tran is a second-year international undergraduate student from Vietnam pursuing a Bachelor of Science in Computer Science at San Diego State University. 
+                She is passionate about developing human-centered technological solutions through STEM and interdisciplinary collaboration. 
+                Drawing from her international background, Dolphin integrates global perspectives, multimedia storytelling, and data-driven problem-solving with adaptive leadership. 
+                Her interests lie at the intersection of computer science and healthcare, where she aims to explore computational systems and ethical technologies that support underrepresented and globally diverse communities
              </p>
         </section>
 
