@@ -110,7 +110,6 @@ h2{
   margin: 20px; 
 }
 
-
 .research-experience-card img{
   width: 250px; 
   height: 250px; 
@@ -124,8 +123,6 @@ h2{
   font-size: 1em;
 }
 
-
-
 .presentation-section{
   margin: 0px; 
   padding: var(--section-padding-y) var(--section-padding-x); 
@@ -138,11 +135,56 @@ h2{
   color: #f5f0ea; 
 }
 
-.project-section{
+.projects-section{
   margin: 0px; 
   padding: var(--section-padding-y) var(--section-padding-x); 
   background-color: #f5f0ea; 
 }
+
+.project-category-navigation{
+  margin: 5px;
+  padding: 10px; 
+  border: 20px;
+  display: flex;
+  list-style-type: none; 
+  justify-content: center;
+  gap: 30px; 
+  background-color: var(--color-background);
+}
+
+.project-category-navigation a{
+  color: white; 
+  text-decoration: none;
+}
+
+.project-category-navigation a:hover{
+  padding: 10px; 
+  background-color: var(--color-hover); 
+}
+
+.project-slideshow-section{
+  display: flex;
+  overflow-x: auto;
+  gap: 20px; 
+  scroll-snap-type: x mandatory; 
+}
+
+.project-slideshow-section img{
+  object-fit: cover;
+  max-width: 200px;
+  max-height: 200px; 
+
+}
+
+.project-card{
+  scroll-snap-align: start; 
+  background-color: gray;
+  padding: 25px; 
+  border-radius: 20px; 
+  min-width: 200px; 
+}
+
+
 
 .honors-section{
   margin: 0px; 
