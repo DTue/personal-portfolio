@@ -9,6 +9,7 @@ import Presentations from './components/Presentations'
 import ProfessionalExperience from './components/ProfessionalExperience'
 import Projects from './components/Projects';
 import Honors from './components/Honors'; 
+import Involvements from './components/Involvements';
 //import Contact from './components/Contact';
 //import Footer from './components/Footer';
 
@@ -27,6 +28,7 @@ function App() {
       <ProfessionalExperience/>
       <Projects/>
       <Honors/> 
+      <Involvements/>
     
 
     </>

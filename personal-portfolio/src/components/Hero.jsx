@@ -1,4 +1,4 @@
-import image_placeholder from "../assets/image_placeholder.jpg"; 
+import my_portrait from "../assets/my_portrait.jpg";  
 
 function Hero() {
     return(
@@ -10,7 +10,7 @@ function Hero() {
         </div>
 
           <div className = "hero-right">
-            <img src = {image_placeholder} alt ="placeholder image"> 
+            <img src = {my_portrait} alt ="portrait"> 
             </img>
 
         </div>

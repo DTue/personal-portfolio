@@ -1,6 +1,6 @@
 function ProfessionalExperience(){
     return(
-        <section className="professional-experience-section">
+        <section id="professional" className="professional-experience-section">
             <h2>Professional Experience </h2>
              <h3>Professional Experience 1</h3>
              <p>

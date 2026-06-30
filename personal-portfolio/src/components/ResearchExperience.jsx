@@ -2,7 +2,7 @@ import image_placeholder from "../assets/image_placeholder.jpg";
 
 function ResearchExperience(){
     return(
-        <section className="research-experience-section">
+        <section id="research-experience"className="research-experience-section">
             <h2>Research Experience</h2>
 
              <div className="research-experience-card">

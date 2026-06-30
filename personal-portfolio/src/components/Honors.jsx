@@ -1,6 +1,6 @@
 function Honors(){
     return(
-        <section className="honors-section">
+        <section id="honors" className="honors-section">
             <h2>Honors</h2>
             <h3>Presentation 1</h3>
              <p>
