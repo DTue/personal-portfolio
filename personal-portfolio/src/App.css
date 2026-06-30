@@ -47,7 +47,8 @@ h2{
 .hero-left{
   background-color: black; 
   color: #f5f0ea; 
-  font-size: 1em;
+  font-size: 2rem;
+  text-align: center; 
 }
 
 
@@ -190,4 +191,10 @@ h2{
   margin: 0px; 
   padding: var(--section-padding-y) var(--section-padding-x); 
   color: #f5f0ea; 
+}
+
+.leadership-and-involvements-section{
+  margin: 0px; 
+  padding: var(--section-padding-y) var(--section-padding-x); 
+  background-color:var(--color-primary); 
 }

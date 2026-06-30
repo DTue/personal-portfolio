@@ -43,8 +43,8 @@ function Projects(){
                         : projects.filter((project) =>  project.category === selectedCategory);  
 
     return(
-        <section className="projects-section">
-            <h2>Project Section</h2>
+        <section id="projects" className="projects-section">
+            <h2>Projects Section</h2>
             <ul className="project-category-navigation">
                 {projectCategory.map((category) => (
                   <button type="button" 
