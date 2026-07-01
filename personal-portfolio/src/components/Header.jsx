@@ -9,7 +9,7 @@ function Header(){
         <li><a href = "#">Home</a></li>
         <li><a href = "#hero" >About Me</a></li>
         <li><a href = "#experience-menu">Experience</a></li>
-        <li><a href = "#">Contact</a></li>
+        <li><a href = "#footer">Contact</a></li>
       </ul>
      </nav>
      

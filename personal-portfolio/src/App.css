@@ -51,6 +51,18 @@ h2{
   text-align: center; 
 }
 
+.contact-button{
+  font-size: 0.5em; 
+  margin: 10px; 
+  background-color:var(--color-primary);
+  padding: 10px; 
+}
+
+.contact-button a{
+  color: black; 
+  text-decoration: none;
+}
+
 
 .hero-right{
   background-color: white; 
@@ -190,11 +202,17 @@ h2{
 .honors-section{
   margin: 0px; 
   padding: var(--section-padding-y) var(--section-padding-x); 
-  color: #f5f0ea; 
+  color: var(--color-primary); 
 }
 
 .leadership-service-and-involvements-section{
   margin: 0px; 
   padding: var(--section-padding-y) var(--section-padding-x); 
   background-color:var(--color-primary); 
+}
+
+.footer-section{
+  margin: 0px; 
+  padding: var(--section-padding-y) var(--section-padding-x); 
+  color: var(--color-primary);
 }

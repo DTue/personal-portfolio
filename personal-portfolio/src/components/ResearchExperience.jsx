@@ -1,4 +1,7 @@
 import image_placeholder from "../assets/image_placeholder.jpg"; 
+import AI4BusinessLab_image from "../assets/AI4BusinessLab_image.png"; 
+import  SDHeart_Image_SummerWorkshop2026 from "../assets/SDHeart_Image_SummerWorkshop2026.jpg";
+import SDHeart_SANDI_image from "../assets/SDHeart_SANDI_image.png"; 
 
 function ResearchExperience(){
     return(
@@ -17,11 +20,11 @@ function ResearchExperience(){
                     <a href="https://sites.google.com/sdsu.edu/ai4businessv1/home">AI4BusinessLab</a>
                  </button>
                  </div>
-                <img src = {image_placeholder} alt ="placeholder image"/> 
+                <img src = {AI4BusinessLab_image} alt ="placeholder image"/> 
              </div>
 
              <div className="research-experience-card">
-                <img src = {image_placeholder} alt ="placeholder image"/> 
+                <img src = {SDHeart_Image_SummerWorkshop2026} alt ="SDHeart_SummerWorskop2026_GroupImage"/> 
              <div className="research-experience-content"> 
                 <h3>San Diego Homeless and Health Equity Research Team - SDHeart</h3>
                  <p className="research-summary">
@@ -49,7 +52,7 @@ function ResearchExperience(){
                     <a href="https://sfalcon3996.wixsite.com/sandi">SANDI</a>
                  </button>
                  </div>
-                  <img src = {image_placeholder} alt ="placeholder image"/> 
+                  <img src = {SDHeart_SANDI_image} alt ="SDHeart_SANDI_Logo"/> 
              </div>
 
 
