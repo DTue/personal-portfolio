@@ -1,18 +1,31 @@
+const honorsList = [
+    {
+        id: 1,
+        title: "SDSU Dean's List: 2024-2026",
+    },
+    {
+        id: 2,
+        title: "CIF All-Academic Scholar Captain",
+    },
+    {
+        id: 3,
+        title: "International Student of The Year",
+    },
+    {
+        id: 4,
+        title: "Jack Kent Cooke Foundation",
+    },
+  
+];
+
+
 function Honors(){
     return(
         <section id="honors" className="honors-section">
             <h2>Honors</h2>
-            <h3>Presentation 1</h3>
-             <p>
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-             </p>
-            <h3>Presentation 2</h3>
-             <p>
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-             </p>
-        
+            {honorsList.map((honors) => (
+            <p>{honors.title}</p>
+            ))}
         </section>
     );
 
