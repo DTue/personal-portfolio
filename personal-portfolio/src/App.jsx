@@ -10,11 +10,8 @@ import ProfessionalExperience from './components/ProfessionalExperience'
 import Projects from './components/Projects';
 import Honors from './components/Honors'; 
 import Involvements from './components/Involvements';
-//import Contact from './components/Contact';
-//import Footer from './components/Footer';
-
-
-
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -29,8 +26,8 @@ function App() {
       <Projects/>
       <Honors/> 
       <Involvements/>
-    
-
+      <Footer/>
+     
     </>
    
   ); 
