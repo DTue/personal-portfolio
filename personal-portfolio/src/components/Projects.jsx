@@ -12,13 +12,15 @@ const projects = [
   note: "1st Place for San Diego Big Data Hackathon", 
   image: image_placeholder,
   project_link: "https://cal.sdsu.edu/news/hackathon-2025",
+  github_link: "", 
   },
   {
     id: 2,
     category: "Software",
     title: "MP3ME",
     role: "Full-Stack Developer",
-    description: "Local music service application built with C++  C++ using TagLib and SFML libraries with core data structures.",
+    description: "Local music service application built with C++ using TagLib and SFML libraries with core data structures.",
+    note:"", 
     image: image_placeholder,
     project_link: "#",
   },
@@ -66,7 +68,7 @@ const projects = [
     project_link: "", 
     github_link: "",
   }, 
-   {
+  {
     id: 7,
     category: "Software",
     title: "AztecSync",
@@ -76,7 +78,17 @@ const projects = [
     image: image_placeholder,
     project_link: "", 
     github_link: "",
-  }
+  },
+  {
+    id: 8,
+    category: "Media",
+    title: "TueDol Media",
+    role: "Photographer and Videgrapher",
+    description: "A Comprehensive Media Portfolio",
+    note: "", 
+    image: image_placeholder,
+    project_link: "https://dpdolphint.wixsite.com/tuetran", 
+  },
 
 ];
 
@@ -111,10 +123,13 @@ function Projects(){
                         <h3>{project.title}</h3>
                         <p className="project-role">{project.role}</p>
                         <p className="project-description">{project.description}</p>
-                        <button className ="project-link" type="button" > <a href={project.project_link}>View More</a> </button>
+                        <div className="project-detail"> 
+                        <button className ="project-link" type="button" > <a href={project.project_link}>Project Information</a> </button>
+                        <button className="project-github" type="button"> <a href={project.github_link}>Github</a></button>
                         <p className="project-note">{project.note}</p>
+                        </div> 
                     </div>
-                ))}
+                ))}  
              </div> 
 
         </section>
