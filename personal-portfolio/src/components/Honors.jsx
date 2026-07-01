@@ -5,7 +5,7 @@ const honorsList = [
     },
     {
         id: 2,
-        title: "CIF All-Academic Scholar Captain",
+        title: "SDSU Leadership Certificate",
     },
     {
         id: 3,
@@ -14,6 +14,10 @@ const honorsList = [
     {
         id: 4,
         title: "Jack Kent Cooke Foundation",
+    },
+    {
+        id: 5,
+        title: "CIF All-Academic Scholar Captain",
     },
   
 ];
